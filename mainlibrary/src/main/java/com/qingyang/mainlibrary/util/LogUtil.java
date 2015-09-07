@@ -9,40 +9,40 @@ import com.qingyang.mainlibrary.BuildConfig;
 public final class LogUtil {
 
     private static int logLevel = Log.VERBOSE;
-    private static String ZEPPTEST = "zepptest--";
+    private static String QLPTest = "qiaolepeitest--";
 
     public static void v(String tag, String format, Object... args) {
         if (!BuildConfig.ENABLE_LOG)return;
         if (logLevel <= Log.VERBOSE) {
-            Log.v(ZEPPTEST + tag, String.format(null, format, args));
+            Log.v(QLPTest + tag, String.format(null, format, args));
         }
     }
 
     public static void d(String tag, String format, Object... args) {
         if (!BuildConfig.ENABLE_LOG)return;
         if (logLevel <= Log.DEBUG) {
-            Log.d(ZEPPTEST + tag, String.format(null, format, args));
+            Log.d(QLPTest + tag, String.format(null, format, args));
         }
     }
 
     public static void i(String tag, String format, Object... args) {
         if (!BuildConfig.ENABLE_LOG)return;
         if (logLevel <= Log.INFO) {
-            Log.i(ZEPPTEST + tag, String.format(null, format, args));
+            Log.i(QLPTest + tag, String.format(null, format, args));
         }
     }
 
     public static void w(String tag, String format, Object... args) {
         if (!BuildConfig.ENABLE_LOG)return;
         if (logLevel <= Log.WARN) {
-            Log.w(ZEPPTEST + tag, String.format(null, format, args));
+            Log.w(QLPTest + tag, String.format(null, format, args));
         }
     }
 
     public static void e(String tag, String format, Object... args) {
         if (!BuildConfig.ENABLE_LOG)return;
         if (logLevel <= Log.ERROR) {
-            Log.e(ZEPPTEST + tag, String.format(null, format, args));
+            Log.e(QLPTest + tag, String.format(null, format, args));
         }
     }
 
@@ -58,7 +58,7 @@ public final class LogUtil {
 
     public static void LOGD(String tag, String msg) {
         if (BuildConfig.ENABLE_LOG) {
-            Log.d(ZEPPTEST + tag, msg);
+            Log.d(QLPTest + tag, msg);
         }
     }
 
@@ -77,7 +77,7 @@ public final class LogUtil {
                     sb.append(elements[i].getMethodName()).append(",  ");
                 }
             }
-            Log.d(ZEPPTEST + tag, obj.getClass().getSimpleName() + "  [[" + sb.toString() + "]] " + msg);
+            Log.d(QLPTest + tag, obj.getClass().getSimpleName() + "  [[" + sb.toString() + "]] " + msg);
         }
     }
 
