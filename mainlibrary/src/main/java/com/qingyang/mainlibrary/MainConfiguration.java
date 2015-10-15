@@ -14,13 +14,10 @@ public interface MainConfiguration {
 
     boolean getEnableCrashReport();
 
-    boolean getEnableEventTracking();
 
     String getMATAdvertiserId();
 
     String getMATConversionId();
-
-    String getDBName();
 
     int getDBVersion();
 }

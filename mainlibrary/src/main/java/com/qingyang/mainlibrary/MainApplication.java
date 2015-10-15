@@ -11,7 +11,7 @@ import com.qingyang.mainlibrary.util.LogUtil;
 public abstract class MainApplication extends Application {
     private static Context sContext;
     private static MainApplication sMainApplication;
-    protected abstract MainConfiguration getConfiguration();
+    public abstract MainConfiguration getConfiguration();
 
     @Override public void onCreate() {
         super.onCreate();

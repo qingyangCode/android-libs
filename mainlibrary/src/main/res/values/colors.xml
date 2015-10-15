@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="common_dialog_button_1_p">#2A3136</color>
+    <color name="common_dialog_button_1">#3C464D</color>
+    <color name="common_dialog_button_2">#30383D</color>
+    <color name="common_dialog_button_2_p">#262C30</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+
+</resources>
