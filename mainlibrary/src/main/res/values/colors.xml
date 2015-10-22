@@ -6,5 +6,6 @@
     <color name="common_dialog_button_2_p">#262C30</color>
     <color name="black">#000000</color>
     <color name="white">#ffffff</color>
+    <color name="rippelColor">#FFFFFF</color>
 
 </resources>
